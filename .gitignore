@@ -1,40 +1,43 @@
-# Byte-compiled / optimized / DLL files
+# Python bytecode
 __pycache__/
 *.py[cod]
 *$py.class
 
-# C extensions
-*.so
-
-# Virtual environments
+# Virtual environment
 venv/
 env/
 .venv/
+.venv/*
 
-# IDEs and editors
-.vscode/
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# PyCharm
 .idea/
-*.sublime-project
-*.sublime-workspace
 
-# Unit test / coverage
-.pytest_cache/
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Coverage reports
 .coverage
-htmlcov/
-.tox/
-nosetests.xml
 coverage.xml
 *.cover
 *.log
+htmlcov/
+
+# Pytest
+.pytest_cache/
 
 # Packaging
 build/
 dist/
 *.egg-info/
 
-# Jupyter Notebook
-.ipynb_checkpoints/
-
-# OS files
-.DS_Store
-Thumbs.db
+# IntelliJ IDEA
+*.iml
